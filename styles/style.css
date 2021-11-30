@@ -6,3 +6,84 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;     
+  }
+  
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content:space-evenly;
+    align-content: flex-end;
+    top: 25px;
+  }
+.spotifylogo {
+    width: 180px;
+    margin-bottom: -40px;
+
+}
+.concert {
+    width: 100%;
+    
+}
+.imageSection2 {
+    text-align: center;
+}
+.pub {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: -750px;
+}
+h1 {
+    font-size: 97px;
+}
+.pub p {
+    font-size: 22px;
+    margin-top: -83px;
+}
+.about {
+    text-align: center;
+    position: relative;
+    top: -260px;
+    font-size: 28px;
+}
+h3 {
+    color:#00B172
+}
+.logo {
+    height:80px;
+}
+.section3 {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
+    top: -215px; 
+    position:relative;   
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 59px;
+    margin-top: -08px;
+
+}
+.botbackground { 
+    border: 500px solid #00B172 ;
+}
+.kanye {
+    position: absolute;
+}
